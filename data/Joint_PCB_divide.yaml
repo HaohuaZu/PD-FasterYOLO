@@ -1,0 +1,13 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:\PCB_defect\datasets\Joint_PCB_divide
+train: D:\PCB_defect\datasets\Joint_PCB_divide\images\train
+test: D:\PCB_defect\datasets\Joint_PCB_divide\images\test
+val: D:\PCB_defect\datasets\Joint_PCB_divide\images\val
+
+# Classes
+names:
+  0: bridge
+  1: missing_component
+  2: missing_solder
